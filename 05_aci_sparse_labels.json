@@ -1,0 +1,402 @@
+{
+ "tau_nominal": 7.814727903251179,
+ "tau_offline_CP": 7.93910605823645,
+ "oracle_tau_post_median": 19.85760523227328,
+ "M_test": 200,
+ "M_cal": 100,
+ "alpha": 0.05,
+ "results": {
+  "nominal": {
+   "cov_pre": 0.9550178571428571,
+   "cov_post": 0.6518166666666667,
+   "cov_late": 0.6186666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.24687691631497308
+  },
+  "offline_CP": {
+   "cov_pre": 0.9574107142857143,
+   "cov_post": 0.65905,
+   "cov_late": 0.6258333333333334,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2527941956013591
+  },
+  "ACI L=1 D=0 eta=0.01": {
+   "cov_pre": 0.9562142857142857,
+   "cov_post": 0.7720666666666667,
+   "cov_late": 0.796,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.3520958377655078,
+   "miscov_on_labelled": 0.13509166666666672,
+   "miscov_all_steps": 0.13509166666666672
+  },
+  "ACI L=1 D=0 eta=0.05": {
+   "cov_pre": 0.9543928571428572,
+   "cov_post": 0.8910166666666667,
+   "cov_late": 0.9297666666666666,
+   "recovery_s": 22.400000000000002,
+   "vol_ratio_post_median": 0.5484610106685716,
+   "miscov_on_labelled": 0.07642499999999997,
+   "miscov_all_steps": 0.07642499999999997
+  },
+  "ACI L=1 D=0 eta=0.2": {
+   "cov_pre": 0.9513214285714285,
+   "cov_post": 0.9358166666666666,
+   "cov_late": 0.9512,
+   "recovery_s": 5.300000000000001,
+   "vol_ratio_post_median": 0.619401024588786,
+   "miscov_on_labelled": 0.05556666666666665,
+   "miscov_all_steps": 0.05556666666666665
+  },
+  "ACI L=1 D=20 eta=0.01": {
+   "cov_pre": 0.9535714285714286,
+   "cov_post": 0.7615166666666666,
+   "cov_late": 0.7884333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.34553810296649257,
+   "miscov_on_labelled": 0.14159999999999995,
+   "miscov_all_steps": 0.14159999999999995
+  },
+  "ACI L=1 D=20 eta=0.05": {
+   "cov_pre": 0.9464107142857143,
+   "cov_post": 0.8851333333333333,
+   "cov_late": 0.9314666666666667,
+   "recovery_s": 23.0,
+   "vol_ratio_post_median": 0.6567326319186414,
+   "miscov_on_labelled": 0.08313333333333328,
+   "miscov_all_steps": 0.08313333333333328
+  },
+  "ACI L=1 D=20 eta=0.2": {
+   "cov_pre": 0.9372678571428571,
+   "cov_post": 0.93105,
+   "cov_late": 0.9452,
+   "recovery_s": 6.1000000000000005,
+   "vol_ratio_post_median": 1.5252548970992477,
+   "miscov_on_labelled": 0.06444166666666662,
+   "miscov_all_steps": 0.06444166666666662
+  },
+  "ACI L=2 D=0 eta=0.01": {
+   "cov_pre": 0.9556785714285714,
+   "cov_post": 0.7242166666666666,
+   "cov_late": 0.7291,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.3042971787093064,
+   "miscov_on_labelled": 0.15831666666666666,
+   "miscov_all_steps": 0.15926666666666667
+  },
+  "ACI L=2 D=0 eta=0.05": {
+   "cov_pre": 0.9555714285714285,
+   "cov_post": 0.8471666666666666,
+   "cov_late": 0.8903666666666666,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.45924535693595403,
+   "miscov_on_labelled": 0.09868333333333335,
+   "miscov_all_steps": 0.09783333333333333
+  },
+  "ACI L=2 D=0 eta=0.2": {
+   "cov_pre": 0.9540357142857143,
+   "cov_post": 0.9235,
+   "cov_late": 0.9504,
+   "recovery_s": 6.9,
+   "vol_ratio_post_median": 0.6290211068941481,
+   "miscov_on_labelled": 0.06320000000000003,
+   "miscov_all_steps": 0.060383333333333344
+  },
+  "ACI L=2 D=20 eta=0.01": {
+   "cov_pre": 0.9544821428571428,
+   "cov_post": 0.7144,
+   "cov_late": 0.7191333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2974059701054516,
+   "miscov_on_labelled": 0.16331666666666667,
+   "miscov_all_steps": 0.1647333333333333
+  },
+  "ACI L=2 D=20 eta=0.05": {
+   "cov_pre": 0.9508035714285714,
+   "cov_post": 0.8357166666666667,
+   "cov_late": 0.8847333333333334,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.4778053490527581,
+   "miscov_on_labelled": 0.10558333333333336,
+   "miscov_all_steps": 0.10579166666666662
+  },
+  "ACI L=2 D=20 eta=0.2": {
+   "cov_pre": 0.941375,
+   "cov_post": 0.9173666666666667,
+   "cov_late": 0.9515333333333333,
+   "recovery_s": 7.300000000000001,
+   "vol_ratio_post_median": 0.9617877456941735,
+   "miscov_on_labelled": 0.07013333333333338,
+   "miscov_all_steps": 0.06936666666666669
+  },
+  "ACI L=5 D=0 eta=0.01": {
+   "cov_pre": 0.9554464285714286,
+   "cov_post": 0.6829833333333334,
+   "cov_late": 0.6663666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2689683250253156,
+   "miscov_on_labelled": 0.17812499999999998,
+   "miscov_all_steps": 0.17999166666666666
+  },
+  "ACI L=5 D=0 eta=0.05": {
+   "cov_pre": 0.95625,
+   "cov_post": 0.7727833333333334,
+   "cov_late": 0.7979333333333334,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.35189356294980634,
+   "miscov_on_labelled": 0.13570833333333332,
+   "miscov_all_steps": 0.13470833333333332
+  },
+  "ACI L=5 D=0 eta=0.2": {
+   "cov_pre": 0.954625,
+   "cov_post": 0.8854,
+   "cov_late": 0.9254,
+   "recovery_s": 23.3,
+   "vol_ratio_post_median": 0.5360566452734254,
+   "miscov_on_labelled": 0.08408333333333329,
+   "miscov_all_steps": 0.07914166666666667
+  },
+  "ACI L=5 D=20 eta=0.01": {
+   "cov_pre": 0.9548035714285714,
+   "cov_post": 0.6785833333333333,
+   "cov_late": 0.6613666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2652365158497301,
+   "miscov_on_labelled": 0.1805,
+   "miscov_all_steps": 0.18249166666666672
+  },
+  "ACI L=5 D=20 eta=0.05": {
+   "cov_pre": 0.9535357142857143,
+   "cov_post": 0.7606833333333334,
+   "cov_late": 0.7880333333333334,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.34549962393950895,
+   "miscov_on_labelled": 0.14200000000000002,
+   "miscov_all_steps": 0.14203333333333334
+  },
+  "ACI L=5 D=20 eta=0.2": {
+   "cov_pre": 0.9461607142857142,
+   "cov_post": 0.8721166666666667,
+   "cov_late": 0.9195666666666666,
+   "recovery_s": 28.3,
+   "vol_ratio_post_median": 0.599529503260335,
+   "miscov_on_labelled": 0.0904166666666667,
+   "miscov_all_steps": 0.08975833333333338
+  },
+  "ACI L=10 D=0 eta=0.01": {
+   "cov_pre": 0.9550535714285714,
+   "cov_post": 0.6681833333333334,
+   "cov_late": 0.6434333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2581496324434951,
+   "miscov_on_labelled": 0.1845,
+   "miscov_all_steps": 0.18758333333333332
+  },
+  "ACI L=10 D=0 eta=0.05": {
+   "cov_pre": 0.95525,
+   "cov_post": 0.7231333333333333,
+   "cov_late": 0.7270666666666666,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.30363247832419576,
+   "miscov_on_labelled": 0.15800000000000003,
+   "miscov_all_steps": 0.16000000000000003
+  },
+  "ACI L=10 D=0 eta=0.2": {
+   "cov_pre": 0.9558571428571428,
+   "cov_post": 0.8351833333333334,
+   "cov_late": 0.8764,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.4479343050444962,
+   "miscov_on_labelled": 0.10983333333333334,
+   "miscov_all_steps": 0.10368333333333335
+  },
+  "ACI L=10 D=20 eta=0.01": {
+   "cov_pre": 0.9548035714285714,
+   "cov_post": 0.66605,
+   "cov_late": 0.641,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2554942646511746,
+   "miscov_on_labelled": 0.18574999999999997,
+   "miscov_all_steps": 0.18875833333333336
+  },
+  "ACI L=10 D=20 eta=0.05": {
+   "cov_pre": 0.9538571428571428,
+   "cov_post": 0.7133666666666667,
+   "cov_late": 0.7171666666666666,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.29727645697627275,
+   "miscov_on_labelled": 0.16233333333333333,
+   "miscov_all_steps": 0.1655416666666667
+  },
+  "ACI L=10 D=20 eta=0.2": {
+   "cov_pre": 0.9505357142857143,
+   "cov_post": 0.8176833333333333,
+   "cov_late": 0.8651666666666666,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.45144297660852384,
+   "miscov_on_labelled": 0.11608333333333332,
+   "miscov_all_steps": 0.11493333333333333
+  },
+  "ACI L=20 D=0 eta=0.01": {
+   "cov_pre": 0.9548571428571428,
+   "cov_post": 0.6602166666666667,
+   "cov_late": 0.6314,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.251789363577398,
+   "miscov_on_labelled": 0.1815,
+   "miscov_all_steps": 0.19165833333333337
+  },
+  "ACI L=20 D=0 eta=0.05": {
+   "cov_pre": 0.9547142857142857,
+   "cov_post": 0.6881333333333334,
+   "cov_late": 0.6753333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.273603624821286,
+   "miscov_on_labelled": 0.16766666666666663,
+   "miscov_all_steps": 0.17776666666666663
+  },
+  "ACI L=20 D=0 eta=0.2": {
+   "cov_pre": 0.9538035714285714,
+   "cov_post": 0.77285,
+   "cov_late": 0.7982,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.3563609089790596,
+   "miscov_on_labelled": 0.13649999999999995,
+   "miscov_all_steps": 0.13584166666666664
+  },
+  "ACI L=20 D=20 eta=0.01": {
+   "cov_pre": 0.9548035714285714,
+   "cov_post": 0.6591,
+   "cov_late": 0.6301,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.25072076327433784,
+   "miscov_on_labelled": 0.1821666666666667,
+   "miscov_all_steps": 0.19223333333333337
+  },
+  "ACI L=20 D=20 eta=0.05": {
+   "cov_pre": 0.9539821428571429,
+   "cov_post": 0.6826166666666666,
+   "cov_late": 0.6699333333333334,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.26910750364079955,
+   "miscov_on_labelled": 0.17033333333333334,
+   "miscov_all_steps": 0.18085833333333334
+  },
+  "ACI L=20 D=20 eta=0.2": {
+   "cov_pre": 0.9506607142857143,
+   "cov_post": 0.7593833333333333,
+   "cov_late": 0.7873,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.34977758044051704,
+   "miscov_on_labelled": 0.14283333333333337,
+   "miscov_all_steps": 0.14402499999999996
+  },
+  "ACI L=50 D=0 eta=0.01": {
+   "cov_pre": 0.9547678571428572,
+   "cov_post": 0.65525,
+   "cov_late": 0.6240666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2487944081920989,
+   "miscov_on_labelled": 0.17083333333333328,
+   "miscov_all_steps": 0.19418333333333337
+  },
+  "ACI L=50 D=0 eta=0.05": {
+   "cov_pre": 0.9545714285714286,
+   "cov_post": 0.6657,
+   "cov_late": 0.6402666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2558105354605294,
+   "miscov_on_labelled": 0.16374999999999995,
+   "miscov_all_steps": 0.18905000000000005
+  },
+  "ACI L=50 D=0 eta=0.2": {
+   "cov_pre": 0.95275,
+   "cov_post": 0.7043166666666667,
+   "cov_late": 0.7022666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2862504192931319,
+   "miscov_on_labelled": 0.15625,
+   "miscov_all_steps": 0.17059999999999997
+  },
+  "ACI L=50 D=20 eta=0.01": {
+   "cov_pre": 0.9548035714285714,
+   "cov_post": 0.6548166666666667,
+   "cov_late": 0.6235,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.24878032541730893,
+   "miscov_on_labelled": 0.17083333333333328,
+   "miscov_all_steps": 0.19437499999999996
+  },
+  "ACI L=50 D=20 eta=0.05": {
+   "cov_pre": 0.9545178571428572,
+   "cov_post": 0.6637,
+   "cov_late": 0.6379666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2537683974544594,
+   "miscov_on_labelled": 0.16374999999999995,
+   "miscov_all_steps": 0.19006666666666672
+  },
+  "ACI L=50 D=20 eta=0.2": {
+   "cov_pre": 0.9519821428571429,
+   "cov_post": 0.69535,
+   "cov_late": 0.6918333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.28042538528528244,
+   "miscov_on_labelled": 0.15625,
+   "miscov_all_steps": 0.17542500000000005
+  },
+  "ACI L=100 D=0 eta=0.01": {
+   "cov_pre": 0.9548571428571428,
+   "cov_post": 0.65315,
+   "cov_late": 0.6209,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.24666626936238645,
+   "miscov_on_labelled": 0.13749999999999996,
+   "miscov_all_steps": 0.19519166666666665
+  },
+  "ACI L=100 D=0 eta=0.05": {
+   "cov_pre": 0.9545535714285714,
+   "cov_post": 0.6567333333333333,
+   "cov_late": 0.6272333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.25052015779198117,
+   "miscov_on_labelled": 0.13666666666666671,
+   "miscov_all_steps": 0.1935416666666666
+  },
+  "ACI L=100 D=0 eta=0.2": {
+   "cov_pre": 0.9532678571428571,
+   "cov_post": 0.67135,
+   "cov_late": 0.6531666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.25777435621773104,
+   "miscov_on_labelled": 0.135,
+   "miscov_all_steps": 0.18684166666666668
+  },
+  "ACI L=100 D=20 eta=0.01": {
+   "cov_pre": 0.9548928571428571,
+   "cov_post": 0.65305,
+   "cov_late": 0.6208333333333333,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.24633737542352535,
+   "miscov_on_labelled": 0.13749999999999996,
+   "miscov_all_steps": 0.1952166666666667
+  },
+  "ACI L=100 D=20 eta=0.05": {
+   "cov_pre": 0.9544821428571428,
+   "cov_post": 0.65595,
+   "cov_late": 0.6265,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.24956544884044915,
+   "miscov_on_labelled": 0.13666666666666671,
+   "miscov_all_steps": 0.19395833333333334
+  },
+  "ACI L=100 D=20 eta=0.2": {
+   "cov_pre": 0.9529107142857143,
+   "cov_post": 0.6677833333333333,
+   "cov_late": 0.6498666666666667,
+   "recovery_s": null,
+   "vol_ratio_post_median": 0.2542434674350796,
+   "miscov_on_labelled": 0.135,
+   "miscov_all_steps": 0.18877500000000003
+  }
+ }
+}

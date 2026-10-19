@@ -1,0 +1,49 @@
+{
+  "band_95": [
+    2.5391232260248975,
+    3.4987446882991526
+  ],
+  "M_runs": 100,
+  "shift_time_s": 30.0,
+  "shift_std_factor": 2.0,
+  "nominal/EKF/before": {
+    "mean_ANEES": 3.032,
+    "frac_steps_in_band": 0.883,
+    "mean_coverage_95": 0.948
+  },
+  "nominal/EKF/after": {
+    "mean_ANEES": 3.015,
+    "frac_steps_in_band": 0.983,
+    "mean_coverage_95": 0.952
+  },
+  "nominal/PF/before": {
+    "mean_ANEES": 3.748,
+    "frac_steps_in_band": 0.177,
+    "mean_coverage_95": 0.898
+  },
+  "nominal/PF/after": {
+    "mean_ANEES": 4.123,
+    "frac_steps_in_band": 0.15,
+    "mean_coverage_95": 0.887
+  },
+  "shift/EKF/before": {
+    "mean_ANEES": 3.032,
+    "frac_steps_in_band": 0.883,
+    "mean_coverage_95": 0.948
+  },
+  "shift/EKF/after": {
+    "mean_ANEES": 7.235,
+    "frac_steps_in_band": 0.0,
+    "mean_coverage_95": 0.655
+  },
+  "shift/PF/before": {
+    "mean_ANEES": 3.748,
+    "frac_steps_in_band": 0.177,
+    "mean_coverage_95": 0.898
+  },
+  "shift/PF/after": {
+    "mean_ANEES": 114.554,
+    "frac_steps_in_band": 0.0,
+    "mean_coverage_95": 0.399
+  }
+}
